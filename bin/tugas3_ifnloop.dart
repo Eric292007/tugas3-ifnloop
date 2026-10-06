@@ -49,25 +49,49 @@ void main() {
   var rata = jumlah / 5;
   print("Rata-rata Angka : $rata");
 
-  if (angka[0] > angka[1] && angka[0] > angka[2] && angka[0] > angka[3] && angka[0] > angka[4]) {
+  if (angka[0] > angka[1] &&
+      angka[0] > angka[2] &&
+      angka[0] > angka[3] &&
+      angka[0] > angka[4]) {
     print("Angka Maksimum : ${angka[0]}");
-  } else if (angka[1] > angka[0] && angka[1] > angka[2] && angka[1] > angka[3] && angka[1] > angka[4]) {
+  } else if (angka[1] > angka[0] &&
+      angka[1] > angka[2] &&
+      angka[1] > angka[3] &&
+      angka[1] > angka[4]) {
     print("Angka Maksimum : ${angka[1]}");
-  } else if (angka[2] > angka[0] && angka[2] > angka[1] && angka[2] > angka[3] && angka[2] > angka[4]) {
+  } else if (angka[2] > angka[0] &&
+      angka[2] > angka[1] &&
+      angka[2] > angka[3] &&
+      angka[2] > angka[4]) {
     print("Angka Maksimum : ${angka[2]}");
-  } else if (angka[3] > angka[0] && angka[3] > angka[1] && angka[3] > angka[2] && angka[3] > angka[4]) {
+  } else if (angka[3] > angka[0] &&
+      angka[3] > angka[1] &&
+      angka[3] > angka[2] &&
+      angka[3] > angka[4]) {
     print("Angka Maksimum : ${angka[3]}");
   } else {
     print("Angka Maksimum : ${angka[4]}");
   }
 
-  if (angka[0] < angka[1] && angka[0] < angka[2] && angka[0] < angka[3] && angka[0] < angka[4]) {
+  if (angka[0] < angka[1] &&
+      angka[0] < angka[2] &&
+      angka[0] < angka[3] &&
+      angka[0] < angka[4]) {
     print("Angka Minimum : ${angka[0]}");
-  } else if (angka[1] < angka[0] && angka[1] < angka[2] && angka[1] < angka[3] && angka[1] < angka[4]) {
+  } else if (angka[1] < angka[0] &&
+      angka[1] < angka[2] &&
+      angka[1] < angka[3] &&
+      angka[1] < angka[4]) {
     print("Angka Minimum : ${angka[1]}");
-  } else if (angka[2] < angka[0] && angka[2] < angka[1] && angka[2] < angka[3] && angka[2] < angka[4]) {
+  } else if (angka[2] < angka[0] &&
+      angka[2] < angka[1] &&
+      angka[2] < angka[3] &&
+      angka[2] < angka[4]) {
     print("Angka Minimum : ${angka[2]}");
-  } else if (angka[3] < angka[0] && angka[3] < angka[1] && angka[3] < angka[2] && angka[3] < angka[4]) {
+  } else if (angka[3] < angka[0] &&
+      angka[3] < angka[1] &&
+      angka[3] < angka[2] &&
+      angka[3] < angka[4]) {
     print("Angka Minimum : ${angka[3]}");
   } else {
     print("Angka Minimum : ${angka[4]}");
